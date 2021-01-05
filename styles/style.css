@@ -70,13 +70,16 @@
 
 .description {
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
 .two-columns {
   width: 80%;
   display: flex;
   align-items: space-between;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .two-columns__brief {
