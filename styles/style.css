@@ -10,6 +10,9 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  position: relative; /* not sure about necessity of this rule */
+  display: flex;
+  margin-bottom: 100px;
 }
 
 .logo_place_header {
@@ -18,7 +21,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header__title {
@@ -29,13 +32,15 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .header__subtitle {
   z-index: 2;
   position: absolute;
   width: 388px;
-  margin: 0 0 30px 64px;
+  left: 64px;
+  bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -50,15 +55,35 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
 
 .header__square-pic {
   height: 568px;
   width: 568px;
-  color: #2f80ed;
+  background-color: #2f80ed;
   position: absolute;
+  top: 64px;
   right: 0;
-  margin-top: 64px;
+  z-index: 0;
+}
+
+.description {
+  margin-bottom: 100px;
+}
+
+
+
+.digits {
+  margin-bottom: 100px;
+}
+
+.feynman {
+  margin-bottom: 90px;
+}
+
+.kaufman {
+  margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {
@@ -66,4 +91,68 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.footer {
+  margin: 60px 0 40px 0;
+  display: flex;
+  min-height: 350px;
+  flex-basis: 711px;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__columns {
+  display: inline-flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 16px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_social {
+  flex-direction: column;
+  justify-content: flex-start
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
