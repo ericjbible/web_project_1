@@ -247,6 +247,7 @@
 .table__cell_theme_dark {
   margin-top: 80px;
   width: 200px;
+  z-index: 1;
 }
 
 .table__heading_theme_dark {
@@ -262,10 +263,14 @@
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
-  background-position: right -210px;
-  background-size: 877px 877px;
+  background: url(../images/kaufman-triangle.svg) no-repeat right top;
+  background-size: contain;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
 }
 
 .footer {
