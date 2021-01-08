@@ -10,7 +10,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  position: relative; /* not sure about necessity of this rule */
+  position: relative;
   display: flex;
   margin-bottom: 100px;
 }
@@ -162,8 +162,11 @@
   font-weight: bold;
 }
 
-.table__text {
+.table__text:nth-child(1) {
   margin-bottom: 20px;
+}
+
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -274,6 +277,7 @@
 }
 
 .footer {
+  box-sizing: border-box;
   padding: 60px 0 40px 0;
   display: flex;
   min-height: 350px;
