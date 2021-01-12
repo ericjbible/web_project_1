@@ -15,6 +15,7 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/table/table.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/khan/khan.css);
