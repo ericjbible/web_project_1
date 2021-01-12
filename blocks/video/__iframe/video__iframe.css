@@ -1,0 +1,15 @@
+.video__iframe {
+  z-index: 1;
+  width: 515px;
+  height: 316px;
+  position: relative;
+  bottom: -60px;
+}
+
+.video__iframe:first-of-type {
+  margin: 0 20px 0 auto;
+}
+
+.video__iframe:last-of-type {
+  margin: 0 auto 0 0;
+}
