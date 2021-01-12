@@ -2,4 +2,9 @@
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  transition: opacity 0.2s linear;
+}
+
+.footer__social-icon:hover {
+  opacity: 0.6;
 }
