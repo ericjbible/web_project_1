@@ -4,6 +4,7 @@
   height: 316px;
   position: relative;
   bottom: -60px;
+  border: none;
 }
 
 .video__iframe:first-of-type {
