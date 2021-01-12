@@ -1,0 +1,10 @@
+.cards__item {
+  max-width: 238px;
+  display: flexbox;
+  margin-right: 100px;
+  align-items: space-between;
+}
+
+.cards__item:nth-of-type(3) {
+  margin: 0;
+}
