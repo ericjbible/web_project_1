@@ -8,7 +8,7 @@
   padding: 0;
   list-style-type: none;
   max-width: 920px;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
