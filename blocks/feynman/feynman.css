@@ -3,10 +3,7 @@
 @import url(./__link/feynman__link.css);
 
 .feynman {
-  background-color: #f2f2f2;
-  background-image: url(../../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  background: #f2f2f2 url(../../images/feynman.png) no-repeat left bottom;
   min-height: 790px;
   position: relative;
   padding-top: 100px;
