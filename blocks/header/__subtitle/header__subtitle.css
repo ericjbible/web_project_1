@@ -2,7 +2,7 @@
   margin: 0;
   z-index: 2;
   position: absolute;
-  width: 388px;
+  max-width: 388px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
