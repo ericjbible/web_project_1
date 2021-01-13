@@ -1,0 +1,15 @@
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.2s linear;
+
+}
+
+.footer__link:hover {
+  opacity: 0.6;
+}
+
+.footer__link:last-child {
+  margin: 0 0 16px 0;
+  padding: 0;
+}
